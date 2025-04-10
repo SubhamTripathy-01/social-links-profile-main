@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Inter-Variablefont;
+    src: url(https://fonts.google.com/specimen/Inter);
+    font-weight: 400, 600, 700;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter-Variablefont', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    height: 33rem;
+    width: 20rem;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.dp-pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+.dp-pic img{
+    width: 100%;
+}
+.name-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.name-address span{
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    font-size: 14px;
+    
+}
+.skill{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 75%);
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
+.section{
+    font-size: 14px;
+    color: hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 12px;
+    width: 80%;
+    height: 8%;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+@media (max-width: 375px){
+    main{
+        height: auto;
+        margin: 20px;
+    }
+}
